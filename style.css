@@ -1,0 +1,361 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#logo{
+    width: 150px;
+}
+.navbar{
+    background-image: url(https://i.pinimg.com/736x/61/7f/88/617f8880b4e3aa09002d9abd41dc3a93.jpg);
+}
+#navbar {
+    position: fixed;
+    top: 0; /* or bottom: 0; depending on where you want it */
+    left: 0;
+    width: 100%; /* to make it span across the screen */
+    z-index: 1000; /* ensures it stays above other elements */
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  .h1{
+
+    color: #000000;
+    
+  }
+
+  .home-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color:white;
+  }
+  .home-content {
+    max-width: 50%;
+  }
+  .home-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #02080d;
+  }
+  .home-content p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #6c757d;
+  }
+  .home-content a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  .home-content a:hover {
+    background-color: #0056b3;
+  }
+  .home-image img {
+    max-width: 100%;
+    border-radius: 10px;
+  } 
+
+.about-section {
+    margin: auto;
+  
+    padding: 50px 20px;
+    margin-top: 100px;
+}
+.img{
+    margin-top: 100px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.about-text {
+    flex: 1;
+    min-width: 300px;
+}
+
+.about-text h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+   
+}
+
+.about-text p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+
+.learn-more-btn:hover {
+    background-color: #000000;
+}
+
+.about-image {
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+    padding: 10px;
+  }
+  .carousel-caption h5 {
+    color: #fff;
+  }
+  .carousel-caption p {
+    color: #ddd;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .about-section {
+    
+    padding: 50px 20px;
+  }
+
+  .about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .about-image {
+    flex: 1 1 40%;
+  }
+
+  .about-image img {
+    width: 100%;
+    border-radius: 10px;
+   
+  }
+
+  .about-content {
+    flex: 1 1 55%;
+  }
+
+  .about-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #000000;
+     /* Primary color */
+  }
+
+  .about-content p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+ 
+
+  .about-content .btn:hover {
+    background-color: #0056b3;
+  }
+
+  @media (max-width: 768px) {
+    .about-container {
+      flex-direction: column;
+    }
+
+    .about-image, .about-content {
+      flex: 1 1 100%;
+    }
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .course-section {
+    padding: 50px 20px;
+    background-color:white;
+  }
+
+  .course-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+
+  .course-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .course-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  .course-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+
+  .course-content {
+    padding: 20px;
+  }
+
+  .course-content h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  .course-content p {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.5;
+  }
+
+  .course-content .btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #445e79;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+
+  .course-content .btn:hover {
+    background-color: #383f47;
+    color: #fff;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .contact-section {
+    padding: 50px 20px;
+    background-color:white;
+  }
+
+  .contact-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+
+  .contact-details,
+  .contact-form {
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex: 1 1 45%;
+  }
+
+  .contact-details h3,
+  .contact-form h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #000000;
+  }
+
+  .contact-details p {
+    margin: 10px 0;
+    line-height: 1.6;
+    color: #555;
+  }
+
+  .contact-details .icon {
+    margin-right: 10px;
+    color: #007BFF;
+  }
+
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    font-size: 1rem;
+  }
+
+  .contact-form textarea {
+    height: 150px;
+    resize: none;
+  }
+
+  .contact-form button {
+    padding: 10px 20px;
+    background-color: #445e79;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    
+  }
+
+  .contact-form button:hover {
+    background-color: #383f47;
+  }
+
+  @media (max-width: 768px) {
+    .contact-details,
+    .contact-form {
+      flex: 1 1 100%;
+    }
+  }
